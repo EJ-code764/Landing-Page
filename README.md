@@ -1,1 +1,1 @@
-# Landing-Page
+All images use in this project is not mine. Credits to the rightful owner.

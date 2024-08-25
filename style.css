@@ -207,6 +207,8 @@ figcaption {
     padding: 16px 0;
 }
 
+/* Responsive */
+
 @media only screen and (max-width: 600px) {
     .hero-content {
         display: flex;

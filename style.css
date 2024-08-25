@@ -14,7 +14,6 @@ body {
 .info-section, 
 .qoute-section, 
 .signup-section {
-    border: 1px solid green;
     display: flex;
     justify-content: center;
 }
@@ -23,7 +22,6 @@ body {
 .info-container,
 .qoute-container,
 .signup-container {
-    border: 1px solid red;
     width: 80%;
 }
 
@@ -180,4 +178,25 @@ figcaption {
     font-size: 20px;
     margin-top: 20px;
     color: #1f2937;
+}
+
+/* SignUp Section */
+
+.signup-section{
+    min-height: 450px;
+    align-items: center;
+}
+
+.signup-container{
+    background-color: #3882f6;
+    color: white;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.signup-btn {
+    border: 2px solid white;
 }

@@ -206,3 +206,35 @@ figcaption {
     justify-content: center;
     padding: 16px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .hero-content {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;;
+    }
+    .heroimg {
+        width: 100%;
+        height: auto;
+    }
+    .secondary-text {
+        width: 100%;
+    }
+    .hero-content {
+        display: flex;
+        justify-content: center;
+    }
+    .info-gallery {
+        margin-bottom: 20px;
+    }
+    .quote {
+        width: 100%;
+        padding: 15px;
+    }
+    .signup-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  }
